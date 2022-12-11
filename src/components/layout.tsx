@@ -10,7 +10,7 @@ import {
 
 type LayoutProps = {
 	pageTitle: string;
-	children: JSX.Element;
+	children: JSX.Element[];
 };
 
 const Layout = ({ pageTitle, children }: LayoutProps): JSX.Element => {
